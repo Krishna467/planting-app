@@ -1,0 +1,95 @@
+
+import { makeStyles } from "@material-ui/core";
+export default makeStyles ((theme) => ({
+  App:{
+      margin:"20px"
+  },
+  icons:{
+      display:"flex",
+      justifyContent:"space-between"
+  },
+  Card:{
+     margin:"30px 0",
+     padding:"20px",
+     backgroundColor:"#f1f4fb",
+     borderRadius:20
+      },
+  image:{
+      height:"20%",
+      width:"20%"
+  },
+  heading:{
+    fontWeight:"bolder",
+    lineHeight:"25px"
+  },
+  subtitle:{
+    fontSize:"12px",
+    color:"#a9a9a9"
+  },
+  lorem:{
+      color:"#28CA6B"
+  },
+  button:{
+      color:"white",
+      backgroundColor:"black",
+      borderRadius:5,
+      padding:"10px 40px"
+  },
+  avatarBG:{
+    backgroundColor:"#f1f4fb",
+    display:"flex",
+    flexDirection:"row",
+    justifyContent:"",
+    alignItems:"center",
+    borderRadius:20
+  },
+  profileDetails:{
+      display:"flex",
+      flexDirection:"column",
+     alignItems:"flex-start",
+     justifyContent:"flex-start"
+  },
+  Avatar:{
+      width:"20%"
+  },
+  pic:{
+      width:theme.spacing(7),
+      height:theme.spacing(7)
+  },
+  splitAvatar:{
+      width:"100%",
+      display:"flex",
+      flexDirection:"row",
+      justifyContent:"space-between",
+      alignItems:"center",
+      margin:"20px 0"
+    },
+    background:{
+        backgroundColor:"#f1f4fb",
+        borderRadius:20
+    },
+    navbar:{
+        margin:"20px 0",
+        display:"flex",
+        flexDirection:"row",
+        justifyContent:"space-between",
+        alignItems:"center"
+    },
+    active:{
+        borderBottom:"3px solid #28ca6b",
+        width:"25px" 
+       },
+    grey:{
+        color:"#a9a9a9"
+    },
+    plantCard:{
+     backgroundColor:"#f1f4fb",
+     height:"300px",
+     width:"200px",
+     borderRadius:20
+    },
+    plants:{
+        height:"90%",
+        width:"100%"
+    }
+}));
